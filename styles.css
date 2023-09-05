@@ -127,6 +127,28 @@ p {
   h4 {
     line-height: 1;
   }
+	#hero{
+	display: flex;
+	top: 100px;
+	left: 50px;
+	position: absolute;
+	border: 1px solid red;
+	border-radius: 50%;
+	height: 220px;
+	width: 220px;
+	z-index: 1;
+}
+#hero1{
+	display: flex;
+	top: 100px;
+	right: 50px;
+	position: absolute;
+	border: 1px solid red;
+	border-radius: 50%;
+	height: 220px;
+	width: 220px;
+	z-index: 1;
+}
 }
 /*  global classes */
 
@@ -144,6 +166,7 @@ p {
   .section-center {
     width: 95vw;
   }
+	
 }
 main {
   min-height: 100vh;
@@ -240,8 +263,8 @@ main {
 	position: absolute;
 	border: 1px solid red;
 	border-radius: 50%;
-	height: 220px;
-	width: 220px;
+	height: 100px;
+	width: 100px;
 	z-index: 1;
 }
 #hero1{
@@ -251,7 +274,7 @@ main {
 	position: absolute;
 	border: 1px solid red;
 	border-radius: 50%;
-	height: 220px;
-	width: 220px;
+	height: 100px;
+	width: 100px;
 	z-index: 1;
 }
