@@ -200,6 +200,7 @@ main {
   place-items: center;
 }
 .container {
+	position: relative;
   text-align: center;
 }
 .container h2 {
@@ -231,4 +232,26 @@ main {
 .btn-hero:hover {
   color: var(--clr-white);
   background: var(--clr-black);
+}
+#hero{
+	display: flex;
+	top: 100px;
+	left: 50px;
+	position: absolute;
+	border: 1px solid red;
+	border-radius: 50%;
+	height: 220px;
+	width: 220px;
+	z-index: 1;
+}
+#hero1{
+	display: flex;
+	top: 100px;
+	right: 50px;
+	position: absolute;
+	border: 1px solid red;
+	border-radius: 50%;
+	height: 220px;
+	width: 220px;
+	z-index: 1;
 }
